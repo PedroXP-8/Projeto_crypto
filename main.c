@@ -9,7 +9,7 @@
 #include "operacoes.h"
 #include "tipos.h"
 
-static void mostrar_menu(void)
+void mostrar_menu(void)
 {
     printf("\n--- Exchange de Criptomoedas ---\n");
     printf("1 - Consultar saldo\n");
