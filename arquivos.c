@@ -43,7 +43,7 @@ int garantir_arquivo(const char *caminho, const char *conteudo_inicial)
 int criar_arquivos_iniciais(void)
 {
     const char *investidor_inicial =
-        "12345678900|123456|Investidor Demonstracao|10000.00|0.01000000|0.25000000|100.00000000\n";
+        "45971742917|123456|Pedro Henrique|10000.00|0.01000000|0.25000000|100.00000000\n";
 
     return garantir_arquivo(ARQUIVO_INVESTIDOR, investidor_inicial) &&
            garantir_arquivo(ARQUIVO_COTACOES,
