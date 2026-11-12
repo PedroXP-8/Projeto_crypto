@@ -6,16 +6,16 @@ com Bitcoin (BTC), Ethereum (ETH) e Ripple (XRP).
 ## Compilar e executar
 
 O codigo esta dividido em varios arquivos `.c`, que devem ser compilados juntos.
-Com GCC:
+Com G
 
 ```text
 gcc -std=c11 -Wall -Wextra -pedantic main.c entrada.c arquivos.c cotacoes.c autenticacao.c operacoes.c -o exchange
 ```
 
-No Windows com MinGW, o comando e o mesmo; execute o arquivo gerado:
+Entre dentro da pasta 'arquivos_de_persistência' e execute:
 
 ```text
-exchange.exe
+.\exchange.exe
 ```
 
 Execute o programa a partir desta pasta, pois os arquivos de dados ficam no
